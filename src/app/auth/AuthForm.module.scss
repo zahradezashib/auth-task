@@ -1,0 +1,70 @@
+/* رنگ و فونت اختصاصی برای فرم ورود */
+.container {
+    max-width: 360px;
+    margin: 4rem auto;
+    padding: 2rem;
+    border-radius: 12px;
+    background: #1e293b; /* آبی تیره */
+    color: #e0e7ff; /* آبی روشن */
+    font-family: "Vazirmatn", sans-serif;
+    box-shadow: 0 10px 20px rgb(30 41 59 / 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .title {
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #93c5fd; /* آبی کم رنگ */
+  }
+  
+  .input {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: 1.5px solid #64748b; /* خاکستری آبی */
+    margin-bottom: 1rem;
+    background-color: #334155; /* خاکستری تیره */
+    color: #e0e7ff;
+    transition: border-color 0.3s ease;
+  }
+  
+  .input:focus {
+    border-color: #60a5fa; /* آبی روشن */
+    outline: none;
+  }
+  
+  .error {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #f87171; /* قرمز روشن */
+    font-weight: 600;
+    font-size: 0.9rem;
+    text-align: center;
+  }
+  
+  .button {
+    padding: 0.75rem 2rem;
+    font-size: 1.1rem;
+    font-weight: 700;
+    border-radius: 10px;
+    background-color: #3b82f6; /* آبی پررنگ */
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #2563eb; /* آبی پررنگ‌تر */
+  }
+  
+  @media (max-width: 480px) {
+    .container {
+      margin: 2rem 1rem;
+    }
+  }
+  
